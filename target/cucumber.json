@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-31T17:44:42.286Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2461000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.setup() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Add to cart and verify the message is displayed",
+        "description": "",
+        "id": "add-to-cart;add-to-cart-and-verify-the-message-is-displayed",
+        "after": [
+          {
+            "result": {
+              "duration": 107000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.tau.steps.Steps.quitBrowser() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1191000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the customer is on the application homepage",
+            "match": {
+              "location": "com.tau.steps.Steps.launchApplicationHomePage() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1037000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "the customer searched for a product",
+            "match": {
+              "location": "com.tau.steps.Steps.serachForProduct() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "adds the selected product to the cart",
+            "match": {
+              "location": "com.tau.steps.Steps.addProductToTheCart() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 651000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "the customer should be able to see the shopping cart updated with the productname",
+            "match": {
+              "location": "com.tau.steps.Steps.verifyUserAddedProductToCart() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@add_to_cart"
+          }
+        ]
+      }
+    ],
+    "name": "Add to cart",
+    "description": "\tIn order to purchase an online product\n\tAs an open cart customer\n\tI want to add a product successfully",
+    "id": "add-to-cart",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/addToCart.feature",
+    "tags": []
+  }
+]
