@@ -14,50 +14,36 @@ formatter.scenario({
     }
   ]
 });
-formatter.before({
-  "status": "passed"
-});
 formatter.step({
   "name": "the customer is on the application homepage",
   "keyword": "Given "
 });
-formatter.match({
-  "location": "com.tau.steps.Steps.launchApplicationHomePage() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "the customer searched for a product",
   "keyword": "When "
 });
-formatter.match({
-  "location": "com.tau.steps.Steps.serachForProduct() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "adds the selected product to the cart",
   "keyword": "And "
 });
-formatter.match({
-  "location": "com.tau.steps.Steps.addProductToTheCart() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "the customer should be able to see the shopping cart updated with the productname",
   "keyword": "Then "
 });
-formatter.match({
-  "location": "com.tau.steps.Steps.verifyUserAddedProductToCart() in file:/Users/aparnagopalakrishnan/Documents/Training/Projects/tau-cucumber-course-master/target/test-classes/"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
+  "status": "undefined"
 });
 });
